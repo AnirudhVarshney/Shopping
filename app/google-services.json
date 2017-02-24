@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "122568671197",
+    "firebase_url": "https://shopping-95e0d.firebaseio.com",
+    "project_id": "shopping-95e0d",
+    "storage_bucket": "shopping-95e0d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:122568671197:android:13eb0f3201c7ab31",
+        "android_client_info": {
+          "package_name": "com.example.abhinav.udacityshopping"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "122568671197-67a55788k0l6cvtcr97pj0kdurbe412f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSqvwvBv8cdLRU4m_lEBP7bjF6T-m6X2I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

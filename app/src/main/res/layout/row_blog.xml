@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:layout_width="match_parent">
+
+
+<LinearLayout
+   android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/recyler_image_blog"
+        android:background="@android:color/darker_gray"
+        />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_clear"
+            android:id="@+id/deletepost"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="title"
+
+        android:textSize="20sp"
+        android:id="@+id/rv_title"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="desc"
+        android:textSize="20sp"
+        android:id="@+id/rv_desc"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="username"
+        android:textSize="20sp"
+        android:id="@+id/rv_username"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rv_time"
+        android:text="time"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/rv_postuserdp"
+        android:background="@android:color/darker_gray"
+        android:layout_alignParentRight="true"/>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/rv_like"
+        android:src="@drawable/ic_thumb_up" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rv_nolikes"
+            android:layout_toRightOf="@+id/rv_like"
+            android:layout_toLeftOf="@+id/rv_postuserdp"
+            android:layout_alignBottom="@+id/rv_like"
+            android:text="likes"/>
+    </RelativeLayout>
+</LinearLayout>
+</android.support.v7.widget.CardView>
